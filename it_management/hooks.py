@@ -68,6 +68,10 @@ doctype_js = {
 # before_install = "it_management.install.before_install"
 # after_install = "it_management.install.after_install"
 
+# Uninstalatiom
+
+before_uninstall = "it_management.it_management.server_script.delete_custom_fields.delete_custom_fields"
+
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
